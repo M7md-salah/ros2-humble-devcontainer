@@ -8,7 +8,7 @@ ROS 2 Humble officially targets **Ubuntu 22.04**, while my daily workstation run
 
 ## Architecture
 
-![ROS 2 Humble Docker Architecture](assets/architecture.png)
+![ROS 2 Humble Docker Architecture](assets/architecture.jpeg)
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ ros2-humble-devcontainer/
 │   ├── devcontainer.json   # VS Code Dev Container & extensions config
 │   └── Dockerfile          # osrf/ros:humble-desktop + auto-sourcing
 ├── assets/
-│   └── architecture.png    # Environment architecture diagram
+│   └── architecture.jpeg    # Environment architecture diagram
 ├── src/                    # Place your ROS 2 packages here
 ├── docker-compose.yml      # Container orchestration & volume mounts
 └── .gitignore              # Ignores colcon build/install/log folders
